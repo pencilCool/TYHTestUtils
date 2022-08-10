@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self addCell:@"test1" action:^{
+        NSLog(@"action1");
+    }];
+    
+    [self addCell:@"test2" action:^{
+        NSLog(@"action2");
+    }];
 }
 
 - (void)didReceiveMemoryWarning

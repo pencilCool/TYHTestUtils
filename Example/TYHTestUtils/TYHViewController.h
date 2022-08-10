@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
-@interface TYHViewController : UIViewController
+@import TYHTestUtils;
+@interface TYHViewController : BaseTestActionTableVC
 
 @end
