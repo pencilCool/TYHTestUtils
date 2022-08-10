@@ -24,8 +24,8 @@
 
 
 - (void)addCell:(NSString *)title action:(void(^)(void))action{
-    NSParameterAssert(title);
-    NSParameterAssert(action);
+    NSParameterAssert(title != nil);
+    NSParameterAssert(action != nil);
     [self.titles addObject:title];
     [self.actions addObject:action];
 }
