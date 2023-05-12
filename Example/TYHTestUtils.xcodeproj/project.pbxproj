@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0700FBD1D785659668BB6543 /* TYHTestUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYHTestUtils.podspec; path = ../TYHTestUtils.podspec; sourceTree = "<group>"; };
+		0700FBD1D785659668BB6543 /* TYHTestUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYHTestUtils.podspec; path = ../TYHTestUtils.podspec; sourceTree = "<group>"; };
 		189619ED9F10E58387BA4B5E /* Pods_TYHTestUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYHTestUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A0C743D59990A549E7E68 /* Pods-TYHTestUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTestUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYHTestUtils_Example/Pods-TYHTestUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYHTestUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHTestUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +62,10 @@
 		6F1C87EF09E87E3F3CB7E74E /* Pods-TYHTestUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTestUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYHTestUtils_Tests/Pods-TYHTestUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD71827DC805822D89668312 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD71827DC805822D89668312 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D09639BE9C00702156C96ADE /* Pods-TYHTestUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTestUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-TYHTestUtils_Example/Pods-TYHTestUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F04B676F7295B206EC27A6F6 /* Pods_TYHTestUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYHTestUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31641F7974B96CF6A4EF06D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F31641F7974B96CF6A4EF06D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F5FD0161CF9A7F7BA064B095 /* Pods-TYHTestUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTestUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYHTestUtils_Tests/Pods-TYHTestUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				6F1C87EF09E87E3F3CB7E74E /* Pods-TYHTestUtils_Tests.debug.xcconfig */,
 				F5FD0161CF9A7F7BA064B095 /* Pods-TYHTestUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pencilCool;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WN86XXW7R7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -449,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,9 +497,11 @@
 			baseConfigurationReference = 598A0C743D59990A549E7E68 /* Pods-TYHTestUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN86XXW7R7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYHTestUtils/TYHTestUtils-Prefix.pch";
 				INFOPLIST_FILE = "TYHTestUtils/TYHTestUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +515,11 @@
 			baseConfigurationReference = D09639BE9C00702156C96ADE /* Pods-TYHTestUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN86XXW7R7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYHTestUtils/TYHTestUtils-Prefix.pch";
 				INFOPLIST_FILE = "TYHTestUtils/TYHTestUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
